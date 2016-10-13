@@ -1,0 +1,7 @@
+welcome: Welcome to Five Thirty Eight. I can give you information on who is currently projected to with the US presidential election
+help: Try asking me who is currently projected to win the election.
+leader_winprob: Currently, {{ candidate }} is the most likely winner with a win probability of {{ winprob }} percent. 
+candidate_winprob: Currently, {{ candidate }} has a projected {{ percentage }} percent chance of winning the election.
+no_data_on_candidate: I'm sorry, but I don't have any up-to-date infromation on {{ candidate }}.
+
+bye: Goodbye!

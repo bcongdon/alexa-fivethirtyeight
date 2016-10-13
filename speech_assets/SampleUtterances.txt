@@ -1,0 +1,11 @@
+OneShotLeaderIntent who is currently winning
+OneShotLeaderIntent who will winning
+OneShotLeaderIntent who is projected to win
+OneShotLeaderIntent who is leading in the polls
+OneShotLeaderIntent who is most likely to win
+OneShotLeaderIntent who is likely to win
+
+OneShotCandidateIntent what is {Candidate} chance of winning
+OneShotCandidateIntent how likely is {Candidate} to win
+OneShotCandidateIntent how is {Candidate} doing in the polls
+OneShotCandidateIntent what {Candidate} chances of winning the election are
