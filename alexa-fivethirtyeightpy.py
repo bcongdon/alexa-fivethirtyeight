@@ -14,6 +14,7 @@ candidate_names = {
     'stein': 'jill stein'
 }
 
+
 @ask.launch
 def start():
     welcome_msg = render_template('welcome')
@@ -38,12 +39,12 @@ def one_shot_candidate(candidate):
     forecasts = FiveThirtyEight().latest_forecasts()
     winprob = 0
     for f in forecasts:
-        if f.candidate.lower() == candidate.lower():
+        if f.candidate.lower() == candidate.split()[-1].lower():
             winprob = f.models['polls']['winprob']
             break
     else:
-        render_template('no_data_on_candidate',
-                        candidate=candidate)
+        return statement(render_template('no_data_on_candidate',
+                                         candidate=candidate))
     candidate_msg = render_template('candidate_winprob',
                                     candidate=candidate,
                                     percentage=winprob)
