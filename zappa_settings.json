@@ -1,0 +1,6 @@
+{
+    "dev": {
+        "app_function": "alexa_fivethirtyeight.app",
+        "s3_bucket": "zappa-alexa-fivethirtyeight"
+    }
+}
